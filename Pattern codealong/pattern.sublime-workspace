@@ -1,0 +1,271 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"text",
+				"text-shadow\tproperty"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"padd",
+				"padding-top\tproperty"
+			],
+			[
+				"backgro",
+				"background-size\tproperty"
+			],
+			[
+				"padding",
+				"padding-left\tproperty"
+			],
+			[
+				"margi",
+				"margin-left\tproperty"
+			],
+			[
+				"bo",
+				"border-top\tproperty"
+			],
+			[
+				"bor",
+				"border-right\tproperty"
+			],
+			[
+				"border",
+				"border-bottom\tproperty"
+			],
+			[
+				"tex",
+				"text-align\tproperty"
+			],
+			[
+				"p",
+				"padding\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"u",
+				"uppercase\ttext-transform"
+			],
+			[
+				"mar",
+				"margin-left\tproperty"
+			],
+			[
+				"border-w",
+				"border-width\tproperty"
+			],
+			[
+				"se",
+				"select\tTag"
+			],
+			[
+				"mi",
+				"minlength\tAttr"
+			],
+			[
+				"ma",
+				"maxlength\tAttr"
+			],
+			[
+				"opt",
+				"option\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/softwares/WEB pages/Img gallery/gallery.css",
+		"/C/softwares/WEB pages/first_blog/blog.css",
+		"/C/softwares/WEB pages/first_blog/first_blog.htm",
+		"/C/softwares/WEB pages/Img gallery 2/Img_gallery.html",
+		"/C/softwares/WEB pages/Img gallery 2/bootstrap.css",
+		"/C/softwares/WEB pages/First_form.htm",
+		"/C/softwares/WEB pages/pokedex.htm",
+		"/C/softwares/WEB pages/Tic Tac Toe Board/tic.css",
+		"/C/softwares/WEB pages/Tic Tac Toe Board/tictactoe.htm",
+		"/C/softwares/WEB pages/Img gallery/img_gallery.htm",
+		"/C/softwares/WEB pages/img_gallery.htm",
+		"/C/softwares/WEB pages/tictactoe.htm",
+		"/C/softwares/WEB pages/tic.css",
+		"/C/softwares/WEB pages/Assingment1.htm",
+		"/C/softwares/WEB pages/09_Selector_Exercise_Starter/selectorsExercise.html",
+		"/C/softwares/WEB pages/09_Selector_Exercise_Starter/selectors.css",
+		"/C/softwares/WEB pages/09_Selector_Exercise_Starter/selector.css",
+		"/C/softwares/WEB pages/first.htm",
+		"/C/softwares/WEB pages/pokemon chart(ass).htm"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "pattern.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
