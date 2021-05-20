@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+    font-family: sans-serif;
+    background: linear-gradient(to bottom, #66ffff 30%, #ffffff 88%, #fb2525 100%)no-repeat center center fixed;
+    background-size: cover;
+}
+
+/*----------Nav-Bar-------------*/
+
+#mainNavbar a:hover{
+    color: #fb2525;
+}
+.navbar.scrolled{
+	background: rgba(22, 21, 22, 0.74);
+	transition: background 300ms;
+} 
+
+/*@media only screen and (max-width: 980px){
+    #mainNavbar{
+        width%;
+    }
+}*/
+
+.collapse .navbar-collapse
+{
+    text-align: right;
+}
+/*-------------SIDE-MENU--------------------*/
+.side-menu
+{
+    height: 100vh;
+    width: 10%;
+    font-size: 14px;
+    float: left;
+    z-index: 2;
+    background-color: rgba(235, 235, 235,0.4);
+    line-height: 30pt;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.4);
+    color: rgba(22, 21, 22, 0.67);
+}
+
+.side-menu ul{
+    padding-left: 15px;
+    margin-left: 5px;
+}
+
+.side-menu ul li{
+    list-style-type: none;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.side-menu ul li:hover{
+    color: #fb2525;
+}
+
+.side-menu ul li ul{
+    display: none;
+    z-index: 10;
+    top: 67px;
+    width: 15%;
+    color: rgba(22, 21, 22, 0.67);
+}
+.side-menu ul li:hover ul{
+    display: block;
+    height: 250px;
+    margin-left: 8.5%;
+    padding: 0 10px 10px 10px;
+    position: fixed;
+    background-color: rgba(235, 235, 235,0.4);
+    box-shadow: 3px 2px 2px 0px rgba(0, 0, 0, 0.2);
+    line-height: 50pt;
+    text-align: center;
+}
+
+.side-menu ul li:hover ul li:hover{
+    color: #fb2525;
+}
+
+.fa-angle-right{
+    margin-top: 13px;
+    margin-right: 4px;
+    float: right;
+}
+
+.menu{
+    color: black;
+}
+
+.menu:hover{
+    color: #fb2525;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 980px){
+    .side-menu{
+        width: 14%;
+        z-index: 20;
+        top: 50px;
+        position: fixed;
+    }
+    .side-menu ul li ul{
+        top: 67px;
+    }
+    .side-menu ul li:hover ul{
+        margin-left: 12%;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .side-menu{
+        width: 17%;
+        z-index: 20;
+        top: 50px;
+        position: fixed;
+        font-size: 12px;
+    }
+    .side-menu ul li ul{
+        top: 67px;
+        width: 18%;
+    }
+    .side-menu ul li:hover ul{
+        margin-left: 14%;
+    }
+}
+
+.slider{
+    width: 90%;
+    height: 60vh;
+    margin-left: 10%;
+    padding: 0 0 0 10px;
+}
+
+#carouselExampleIndicators{
+    height: 100%;
+}
+.carousel, .carousel-inner{
+    height: 100%;
+}

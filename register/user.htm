@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+	<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" >
+    <link href="/static/use.css" rel="stylesheet" type="text/css">
+    <link href="/static/nunito-font.css" rel="stylesheet" type="text/css" >
+	<title>Purrfect Match</title>
+	</head>
+	
+	<body>
+        <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md m-0 fixed-top">
+            <a href="/" class="navbar-brand">PURRFECT MATCH</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="container">
+                <div class="collapse navbar-collapse" id="navLinks">
+                    <ul class="navbar-nav">
+                        <li class="navbar-item">
+                            <a href="/" class="nav-link">Home</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="/" class="nav-link">About</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="/" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="collapse navbar-collapse flex-row-reverse" id="navLinks">
+                    <ul class="navbar-nav navbar-inverse">
+                        <li class="navbar-item">
+                            <a href="/login" class="nav-link"><i class="fa fa-user"></i>Login</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="/user" class="nav-link  active"><i class="fa fa-user-plus"></i>Sign Up</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+
+       <section>
+           <div class="box m-4">
+            <div class="content row">
+                <div class="form-left col-lg-6 col-md-12 px-0">
+                    <form class="form-detail py-0" action="/auth" method="post">
+                        <h1 class="display-3">SIGN UP</h1>
+                        <input type="text" name="fullname" id="full-name" class="input-text" placeholder="Your Name" required>
+                        <input type="text" name="youremail" id="your-email" class="input-text" placeholder="Email Address" required pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}"><br>
+                        <input type="password" name="password" id="password" class="input-text" placeholder="Password" required><br>
+                        <input type="password" name="comfirmpassword" id="comfirm-password" class="input-text" placeholder="Comfirm Password" required><br>
+                        <input type="text" name="Mobile" id="mobile" class="input-text" placeholder="Your Phone no." required><br>
+                        <input type="text" name="Address" id="address" class="input-text" placeholder="Address" required><br>
+                        <input type="text" name="City" id="city" class="input-text" placeholder="CITY Name" required>
+                        <input type="text" name="PIN" id="pin" class="input-text" placeholder="Postal code" required><br>
+                        <input type="submit" name="register" class="register" value="Register">
+                    </form>
+                </div>
+                    
+                <div class="form-right col-lg-6 col-md-12 px-0 d-none d-lg-block">
+                    <img src="/static/cat.jpg" class="cover" alt="form">
+                    <h2>Hey!!!....Few steps away from getting your dream pet....Your Purrfect Match!!!!!....Fill up the details and choose your match...</h2>
+                </div>
+            </div>
+        
+                
+            </div>
+        </div>
+       </section>
+        
+        
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script>
+            $(function(){
+                $(document).scroll( function(){
+                var $nav =$("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+                });
+            });
+        </script>
+    </body>
+    </html>

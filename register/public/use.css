@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url("family.jpg")no-repeat center center fixed;
+    background-size: cover;
+}
+section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding-top: 40px;
+}
+section .box{
+    position: relative;
+    height: 100%;
+    width: 80%;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5),
+                0 5px 20px rgba(49, 51, 49, 0.74);
+    overflow: hidden;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+.content {
+    width: 100%;
+    height: 100%;
+	margin:  0 auto;
+    display: flex;
+}
+.content .form-left {
+    padding-top:0px;
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    display: flex;
+}
+
+.content .form-right {
+    height: 100%;
+    display: flex;
+    color: blanchedalmond;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.content .form-right img {
+	border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    width: 100%;
+    height: 656px;
+    flex-shrink: 0;
+    position: relative;
+    height: cover;
+}
+.content .form-right h2 {
+    position: absolute;
+    z-index: 999;
+    margin: 35px;
+    left: 20%;
+    right: 0;
+    top: 0;
+    text-align: center;
+    width: 70%;
+    color: rgba(58, 58, 58, 0.801);
+    font-style: 'Nunito';
+}
+.content .form-right a:hover{
+    color: #ffc107;
+}
+
+.content .form-detail {
+    padding: 30px 40px;
+	position: relative;
+    width: 100%;
+    height: 100%;
+}
+.content .form-detail h1 {
+	color: rgba(255, 255, 255, 0.567);
+	text-align: center;
+    position: relative;
+    font-family: 'Nunito';
+    font-weight: bold;
+	padding: 0;
+	margin-bottom: 30px;
+}
+
+.content .form-detail input{
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #fff;       
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(255, 255, 255, 0.753);
+    opacity: 1; /* Firefox */
+
+
+
+}
+
+.content input[type="submit"]
+  {
+      border: none;
+      outline: none;
+      height: 40px;
+      background: #fb2525;
+      color: #fff;
+      font-size: 18px;
+      border-radius: 20px;
+  }
+  .content input[type="submit"]:hover{
+      cursor: pointer;
+      background: #ffc107;
+      color: #000;
+  }
+  #mainNavbar a:hover{
+    color: #fb2525;
+}
+.navbar.scrolled{
+	background: rgba(22, 21, 22, 0.74);
+	transition: background 300ms;
+} 
+
+
+@media (max-width: 990px){
+    section .box{
+        width: 60%;
+    }
+}
+
+@media (max-width: 790px){
+    section .box{
+        width: 80%;
+    }
+}
+link{
+    display: inline;
+}
