@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+	<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="use.css">
+    <link rel="stylesheet" type="text/css" href="css/nunito-font.css">
+	<title>Purrfect Match</title>
+	</head>
+	
+	<body>
+        <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md m-0 fixed-top">
+            <a href="startup.htm" class="navbar-brand">PURRFECT MATCH</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="container">
+                <div class="collapse navbar-collapse" id="navLinks">
+                    <ul class="navbar-nav">
+                        <li class="navbar-item">
+                            <a href="" class="nav-link">Home</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="" class="nav-link">About</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="collapse navbar-collapse flex-row-reverse" id="navLinks">
+                    <ul class="navbar-nav navbar-inverse">
+                        <li class="navbar-item">
+                            <a href="login.htm" class="nav-link"><i class="fa fa-user"></i>Login</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="" class="nav-link  active"><i class="fa fa-user-plus"></i>Sign Up</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+
+       <section>
+           <div class="box m-4">
+            <div class="content row">
+                <div class="form-left col-lg-6 col-md-12 px-0">
+                    <form class="form-detail py-0" action="#" method="post">
+                        <h1 class="display-3">SIGN UP</h1>
+                        <input type="text" name="full-name" id="full-name" class="input-text" placeholder="Your Name" required>
+                        <input type="text" name="your-email" id="your-email" class="input-text" placeholder="Email Address" required pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}"><br>
+                        <input type="password" name="password" id="password" class="input-text" placeholder="Password" required><br>
+                        <input type="password" name="comfirm-password" id="comfirm-password" class="input-text" placeholder="Comfirm Password" required><br>
+                        <input type="text" name="Mobile" id="mobile" class="input-text" placeholder="Your Phone no." required><br>
+                        <input type="text" name="Address" id="address" class="input-text" placeholder="Address" required><br>
+                        <input type="text" name="City" id="city" class="input-text" placeholder="CITY Name" required>
+                        <input type="text" name="PIN" id="pin" class="input-text" placeholder="Postal code" required><br>
+                        <input type="submit" name="register" class="register" value="Register">
+                    </form>
+                </div>
+                    
+                <div class="form-right col-lg-6 col-md-12 px-0 d-none d-lg-block">
+                    <img src="images/cat.jpg" class="fixed" alt="form">
+                    <h2>Hey!!!....Few steps away from getting your dream pet....Your Purrfect Match!!!!!....Fill up the details and choose your match...</h2>
+                </div>
+            </div>
+        
+                
+            </div>
+        </div>
+       </section>
+        
+        
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script>
+            $(function(){
+                $(document).scroll( function(){
+                var $nav =$("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+                });
+            });
+        </script>
+    </body>
+    </html>
+
+
+
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("images/family.jpg")no-repeat center center fixed;
+    background-size: cover;
+    background-position-y: center;
+    background-attachment: fixed;
+    height: 80%;
+    padding-top: 40px;
+}
+section .box{
+    position: relative;
+    height: 100%;
+    width: 80%;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5),
+                0 5px 20px rgba(49, 51, 49, 0.74);
+    overflow: hidden;
+    border-radius: 16px;
+}
+.content {
+    width: 100%;
+    height: 100%;
+	margin:  0 auto;
+    display: flex;
+}
+.content .form-left {
+    padding-top:0px;
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    display: flex;
+}
+
+.content .form-right {
+    height: 100%;
+    display: flex;
+    color: blanchedalmond;
+}
+
+.content .form-right img {
+	border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    width: 100%;
+    flex-shrink: 0;
+    position: relative;
+}
+
+
+.content .form-right h2 {
+    position: absolute;
+    z-index: 999;
+    margin: 35px;
+    left: 20%;
+    right: 0;
+    top: 0;
+    text-align: center;
+    width: 70%;
+    color: rgba(58, 58, 58, 0.801);
+    font-style: 'Nunito';
+}
+.content .form-right a:hover{
+    color: #ffc107;
+}
+
+.content .form-detail {
+    padding: 30px 40px;
+	position: relative;
+    width: 100%;
+    
+}
+.content .form-detail h1 {
+	color: rgba(255, 255, 255, 0.767);
+	text-align: center;
+	position: relative;
+	padding: 0;
+	margin-bottom: 30px;
+}
+
+.content .form-detail input{
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #fff;       
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(255, 255, 255, 0.753);
+    opacity: 1; /* Firefox */
+
+
+
+}
+
+.content input[type="submit"]
+  {
+      border: none;
+      outline: none;
+      height: 40px;
+      background: #fb2525;
+      color: #fff;
+      font-size: 18px;
+      border-radius: 20px;
+  }
+  .content input[type="submit"]:hover{
+      cursor: pointer;
+      background: #ffc107;
+      color: #000;
+  }
+  #mainNavbar a:hover{
+    color: #fb2525;
+}
+.navbar.scrolled{
+	background: rgba(22, 21, 22, 0.74);
+	transition: background 300ms;
+} 
+
+
+@media (max-width: 990px){
+    section .box{
+        width: 60%;
+    }
+}
+
+@media (max-width: 790px){
+    section .box{
+        width: 80%;
+    }
+}

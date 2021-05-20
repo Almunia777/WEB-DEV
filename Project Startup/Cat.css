@@ -1,0 +1,38 @@
+#content{
+	text-align: center;
+	padding-top: 15%;
+	color: white;
+	text-shadow: 0px 4px 4px grey,
+				 0px 8px 13px black;
+}
+html{
+	height: 100%;
+}
+
+hr{
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+body{
+	background: url(https://images.unsplash.com/photo-1450778869180-41d0601e046e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1450&q=80);
+	background-position: center;
+	font-family: sans-serif;
+}
+
+.btn-default{
+	background-color: rgba(0,0,0,0.4);
+	color: white;
+}
+h1{
+	font-weight: 700px;
+	font-size: 5em;
+}
+h3
+{
+	font-size: 18px;
+}
+
+#mainNavbar a:hover{
+ 	color: #d42a47;
+ }
