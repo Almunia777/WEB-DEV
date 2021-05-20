@@ -1,0 +1,12 @@
+.row{   
+    display: flex;
+    flex-wrap: wrap;
+}
+#cards{
+    text-align: center;
+    margin: 10px auto;
+}
+
+img{
+    height: 18rem;
+}

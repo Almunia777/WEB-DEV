@@ -1,0 +1,30 @@
+<%- include("partials/header") %>
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="navbar-brand" href="/">Navbar</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+        <div class="container">
+            <header class="jumbotron py-4">
+                <div class="cotainer">
+                    <h1>Welcome to Wanna Camp !!</h1>
+                    <p>Here are some of the Best Campsites across the world</p>
+                    <p>
+                        <a class="btn btn-primary btn-md" href="campgrounds/new">Add new to the collection</a>
+                    </p>
+                </div>
+            </header> 
+            <div class="row px-3">
+                <% campgrounds.forEach(camp =>{ %>
+                <div class="col-lg-4 col-md-6" id="cards">
+                    <div class="card">
+                        <img src="<%=camp.image%>" class="card-img-top">
+                        <h4 class="card-title pt-2"><%=camp.name%></h4>
+                    </div> 
+                </div> 
+                <% }) %> 
+            </div>
+        </div>
+        
+<%- include("partials/footer") %>
